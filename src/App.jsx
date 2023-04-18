@@ -1,7 +1,13 @@
+import White from "./assets/react-logo-white.png";
+import "./styles.css"
+
 export const App = () => {
-    return(
-        <>
-         <h1>Hello worldd</h1>
-        </>
-    )
-}
+  return (
+    <>
+      <div className="container">
+        <h1>React setup using webpack</h1>
+        <img src={White} alt="" width={300} />
+      </div>
+    </>
+  );
+};
